@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum de Discussion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Plateforme Éducative</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#cours">Cours</a></li>
+                <li><a href="#epreuves">Anciennes épreuves</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#forum">Forum de Discussion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil (par défaut affichée) -->
+    <section id="accueil">
+        <h2>Accueil</h2>
+        
+        <!-- Espace Informations -->
+        <div class="informations">
+            <h3>Informations</h3>
+            <p>Voici quelques informations importantes sur notre plateforme éducative.</p>
+            <!-- Ajoutez plus de contenu d'informations ici -->
+        </div>
+        
+        <!-- Espace Citations -->
+        <div class="citations">
+            <h3>Citations inspirantes</h3>
+            <blockquote>
+                <p>"L'éducation est l'arme la plus puissante pour changer le monde." - Nelson Mandela</p>
+            </blockquote>
+            <!-- Ajoutez plus de citations inspirantes ici -->
+        </div>
+        
+        <!-- Espace Actualités -->
+        <div class="actualites">
+            <h3>Actualités</h3>
+            <ul>
+                <li>Nouveau cours de Sociologie ajouté !</li>
+                <li>Consultez les anciennes épreuves mises à jour.</li>
+                <li>Inscrivez-vous aux formations en méthodologie des sciences sociales.</li>
+            </ul>
+            <!-- Ajoutez plus d'actualités ici -->
+        </div>
+    </section>
+
+    <!-- Section des Cours -->
+    <section id="cours" hidden>
+        <h2>Cours Disponibles</h2>
+        <div class="cartes">
+            <div class="carte">
+                <h3>Cours de Sociologie</h3>
+                <p>Une description du cours de sociologie.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="carte">
+                <h3>Cours d'Anthropologie</h3>
+                <p>Une description du cours d'anthropologie.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="carte">
+                <h3>Cours de Psychologie</h3>
+                <p>Une description du cours de psychologie.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <!-- Ajoutez plus de cartes de cours ici -->
+        </div>
+    </section>
+
+    <!-- Section des Anciennes épreuves -->
+    <section id="epreuves" hidden>
+        <h2>Anciennes Épreuves</h2>
+        <div class="cartes">
+            <div class="carte">
+                <h3>Épreuves de Sociologie 2022</h3>
+                <p>Une description des épreuves de sociologie de l'année 2022.</p>
+                <a href="#">Télécharger</a>
+            </div>
+            <div class="carte">
+                <h3>Épreuves d'Anthropologie 2021</h3>
+                <p>Une description des épreuves d'anthropologie de l'année 2021.</p>
+                <a href="#">Télécharger</a>
+            </div>
+            <div class="carte">
+                <h3>Épreuves de Psychologie 2020</h3>
+                <p>Une description des épreuves de psychologie de l'année 2020.</p>
+                <a href="#">Télécharger</a>
+            </div>
+            <!-- Ajoutez plus de cartes d'épreuves ici -->
+        </div>
+    </section>
+
+    <!-- Section des Formations -->
+    <section id="formations" hidden>
+        <h2>Formations</h2>
+        <div class="cartes">
+            <div class="carte">
+                <h3>Atelier de Recherche en Sociologie</h3>
+                <p>Une description de l'atelier de recherche en sociologie.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="carte">
+                <h3>Formation en Méthodologie des Sciences Sociales</h3>
+                <p>Une description de la formation en méthodologie des sciences sociales.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="carte">
+                <h3>Séminaire sur l'Anthropologie Culturelle</h3>
+                <p>Une description du séminaire sur l'anthropologie culturelle.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <!-- Ajoutez plus de cartes de formations ici -->
+        </div>
+    </section>
+
+    <section id="forum" hidden>
+        <div id="messages-container">
+            <!-- L'endroit où les messages du forum seront affichés -->
+        </div>
+    
+        <form id="message-form">
+            <input type="text" id="username" placeholder="Nom d'utilisateur">
+            <textarea id="message" placeholder="Écrivez votre message ici"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>    
+    </section>
+    
+    <!-- Pied de page -->
+    <footer>
+        <p>Contactez-nous : contact@plateformeeducative.com</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
