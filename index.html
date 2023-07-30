@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum de Discussion</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <!-- En-tête de la page -->
@@ -128,19 +129,30 @@
     <section id="videotheque" hidden>
         <h2>Vidéothèque</h2>
 
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <h3>Titre de la Vidéo 1</h3>
-            <p>Description de la vidéo 1.</p>
+        <div class="video-library">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="video-content">
+                    <h2>Titre de la Vidéo 1</h2>
+                    <p>Description de la vidéo 1.</p>
+                    <div class="tags">
+                        <span class="tag">Tag 1</span>
+                        <span class="tag">Tag 2</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="like-button">Like</button>
+                        <button class="dislike-button">Dislike</button>
+                    </div>
+                    <div class="counts">
+                        <span class="likes-count">100 Likes</span>
+                        <span class="dislikes-count">10 Dislikes</span>
+                        <span class="views-count">1,000 Views</span>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- Ajouter plus de vidéos ici --> 
         </div>
-
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <h3>Titre de la Vidéo 2</h3>
-            <p>Description de la vidéo 2.</p>
-        </div>
-
-        <!-- Ajoutez plus de vidéos ici -->
 
     </section>
 

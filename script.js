@@ -82,3 +82,23 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('forum_messages', JSON.stringify(initialMessages));
     afficherMessages(initialMessages);
 });
+
+
+
+
+$(document).ready(function() {
+// Compteur des likes et dislikes
+let likesCount = 100;
+let dislikesCount = 10;
+
+$(".like-button").click(function() {
+    likesCount++;
+    $(".likes-count").text(likesCount + " Likes");
+});
+
+$(".dislike-button").click(function() {
+    dislikesCount++;
+    $(".dislikes-count").text(dislikesCount + " Dislikes");
+});
+});
+
