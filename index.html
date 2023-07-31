@@ -105,23 +105,26 @@
     <!-- Section des Formations -->
     <section id="formations" hidden>
         <h2>Formations</h2>
-        <div class="cartes">
-            <div class="carte">
-                <h3>Atelier de Recherche en Sociologie</h3>
-                <p>Une description de l'atelier de recherche en sociologie.</p>
-                <a href="#">En savoir plus</a>
+
+        <div class="formation-offer" id="formation-template" style="display: none;">
+            <img src="" alt="Image de la formation">
+            <div class="formation-details">
+                <h2></h2>
+                <p><strong>Date :</strong> <span class="date-debut"></span> au <span class="date-fin"></span></p>
+                <p><strong>Durée :</strong> <span class="duree"></span></p>
+                <p><strong>Lieu :</strong> <span class="lieu"></span></p>
+                <p><strong>Coût :</strong> <span class="cout"></span></p>
+                <p><strong>Formateur :</strong> <span class="formateur"></span></p>
+                <p><strong>Description :</strong> <span class="description"></span></p>
+                <div class="formation-actions">
+                    <a href="#" class="button">En savoir plus</a>
+                    <a href="#" class="button">S'inscrire</a>
+                </div>
             </div>
-            <div class="carte">
-                <h3>Formation en Méthodologie des Sciences Sociales</h3>
-                <p>Une description de la formation en méthodologie des sciences sociales.</p>
-                <a href="#">En savoir plus</a>
-            </div>
-            <div class="carte">
-                <h3>Séminaire sur l'Anthropologie Culturelle</h3>
-                <p>Une description du séminaire sur l'anthropologie culturelle.</p>
-                <a href="#">En savoir plus</a>
-            </div>
-            <!-- Ajoutez plus de cartes de formations ici -->
+        </div>
+          
+        <div class="formations-container">
+            <!-- Les offres de formation seront générées ici -->
         </div>
     </section>
 
@@ -200,6 +203,7 @@
         <p>Contactez-nous : contact@plateformeeducative.com</p>
     </footer>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script_formation.js"></script>
 </body>
 </html>
 

@@ -1,0 +1,26 @@
+[
+    {
+      "nom": "Atelier de Recherche en Sociologie",
+      "date_debut": "01/09/2023",
+      "date_fin": "30/11/2023",
+      "duree": "3 mois",
+      "lieu": "En ligne",
+      "cout": "50000 FCFA",
+      "formateur": "[Formateur]",
+      "description": "Plongez au cœur de la recherche sociologique avec notre Formation Avancée ! Explorez les méthodes de recherche, découvrez les théories sociologiques clés, et développez des compétences essentielles en analyse de données. Que vous soyez étudiant, chercheur ou professionnel, cette formation enrichissante vous ouvrira de nouvelles perspectives dans le monde de la sociologie. Rejoignez-nous dès aujourd'hui pour une expérience d'apprentissage interactive et pratique.",
+      "image": "formation1_atelier de recherche.jpg"
+    },
+    {
+      "nom": "Formation à l'utilisation des logiciels statistiques SPSS et R",
+      "date_debut": "01/10/2023",
+      "date_fin": "30/11/2023",
+      "duree": "2 mois",
+      "lieu": "En ligne et en présentiel",
+      "cout": "20000 FCFA",
+      "formateur": "[Formateur]",
+      "description": "La Formation avancée à l'utilisation de SPSS et R pour l'Analyse Statistique est conçue pour les étudiants, chercheurs et professionnels qui souhaitent maîtriser les compétences essentielles de deux des logiciels statistiques les plus puissants et populaires : SPSS (Statistical Package for the Social Sciences) et R. Cette formation interactive et pratique vous permettra d'acquérir une expertise approfondie dans l'utilisation de ces outils pour la collecte, l'analyse et la présentation de données statistiques.",
+      "image": "statRSPSS.jpeg"
+    }
+ 
+  ]
+  
