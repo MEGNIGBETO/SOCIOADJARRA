@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forum de Discussion</title>
+    <title>Plateforme Éducative</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -14,12 +14,12 @@
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#cours">Cours</a></li>
+                <!--<li><a href="#cours">Cours</a></li>
                 <li><a href="#epreuves">Anciennes épreuves</a></li>
                 <li><a href="#formations">Formations</a></li>
                 <li><a href="#videotheque">Vidéothèque</a></li>
                 <li><a href="#services">Nos services</a></li>
-                <li><a href="#forum">Forum de Discussion</a></li>
+                <li><a href="#forum">Forum de Discussion</a></li>-->
             </ul>
         </nav>
     </header>
@@ -117,13 +117,20 @@
                 <p><strong>Formateur :</strong> <span class="formateur"></span></p>
                 <p><strong>Description :</strong> <span class="description"></span></p>
                 <div class="formation-actions">
-                    <a href="#" class="button">En savoir plus</a>
+                    <a href="#formations-details" class="button">En savoir plus</a>
                     <a href="#" class="button">S'inscrire</a>
                 </div>
             </div>
         </div>
           
         <div class="formations-container">
+            <!-- Les offres de formation seront générées ici -->
+        </div>
+        
+    </section>
+
+    <section id="formations-details" hidden></section>
+        <div class="formations-details-container">
             <!-- Les offres de formation seront générées ici -->
         </div>
     </section>
@@ -201,6 +208,7 @@
     <!-- Pied de page -->
     <footer>
         <p>Contactez-nous : contact@plateformeeducative.com</p>
+        <p>© 2023 Plateforme Éducative. Tous droits réservés.</p>
     </footer>
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="script_formation.js"></script>
