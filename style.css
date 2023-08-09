@@ -9,7 +9,7 @@
 
 /* Styles pour l'en-tête */
 header {
-    height: 15vw;
+    height: 10vh;
     width: 100vw;
     background-image: url(images/background-menu.jpg);
     background-size: cover;
@@ -34,7 +34,7 @@ header {
 }
 
 .navbar .logo {
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -56,7 +56,7 @@ header {
   position: absolute;
   right: 0;
   top: 50px;
-  width: 35px;
+  width: 20px;
 }
 
 /*header h1 {
@@ -289,7 +289,7 @@ section h2 {
 
     .nav-links ul li{
       margin: 50px 0;
-      font-size: 2em;
+      font-size: 1.2em;
     }
 
     .nav-links ul li a{
