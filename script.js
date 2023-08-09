@@ -1,5 +1,13 @@
 // Code JavaScript pour la fonctionnalité de la plateforme éducative
 
+//Gestion du menu de navigation en responsive
+const menuHamburger = document.querySelector(".menu-hamburger")
+const navLinks = document.querySelector(".nav-links")
+ 
+menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+})
+
 // Fonction pour afficher la section spécifiée et masquer les autres sections
 function afficherSection(sectionId) {
     const sections = document.querySelectorAll('section');
