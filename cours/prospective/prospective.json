@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "section": "Section 1",
+      "paragraphe": "Contenu de la section 1...",
+      "illustration": "lien_image_1.jpg"
+    },
+    {
+      "id": 2,
+      "section": "Section 2",
+      "paragraphe": "Contenu de la section 2...",
+      "illustration": "lien_image_2.jpg"
+    }
+]

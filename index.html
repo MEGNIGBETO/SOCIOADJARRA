@@ -11,7 +11,9 @@
     <!-- En-tête de la page -->
     <header>
         <nav class="navbar">
-            <a href="#" class="logo">Plateforme Éducative</a>
+            <div class="logo-container">
+                <span class="logo">Plateforme Éducative</span>
+            </div>
             <div class="nav-links">
                 <ul>
                     <li><a href="#accueil">Accueil</a></li>
@@ -19,8 +21,9 @@
                     <li><a href="#epreuves">Anciennes épreuves</a></li>
                     <!--<li><a href="#formations">Formations</a></li>-->
                     <li><a href="#videotheque">Vidéothèque</a></li>
-                    <!--<li><a href="#services">Nos services</a></li>-->
-                    <li><a href="#forum">Forum de Discussion</a></li>
+                    <!--<li><a href="#services">Nos services</a></li>
+                    <li><a href="#forum">Forum de Discussion</a></li>-->
+                    <li><a href="#apropos">A propos</a></li>
                 </ul>
             </div>
             <img src="images/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
@@ -31,13 +34,6 @@
     <section id="accueil">
         <h2>Accueil</h2>
         
-        <!-- Espace Informations -->
-        <div class="informations">
-            <h3>Informations</h3>
-            <p>Voici quelques informations importantes sur notre plateforme éducative.</p>
-            <!-- Ajoutez plus de contenu d'informations ici -->
-        </div>
-        
         <!-- Espace Citations -->
         <div class="citations">
             <h3>Citations inspirantes</h3>
@@ -47,13 +43,25 @@
             <!-- Ajoutez plus de citations inspirantes ici -->
         </div>
         
+        <!-- Espace Informations -->
+        <div class="informations">
+            <h3>Informations</h3>
+            <p>
+                Afin de vous impliquer activement dans la mise en oeuvre de ce projet de 
+                réalisation d'une plateforme éducative dédiée aux sciences sociales en générale
+                et à la sociologie en particulier, nous vous invitons à contribuer à la production
+                de contenus qui seront postées. Envoyez nous un mail à l'adresse : ...
+            </p>
+            <!-- Ajoutez plus de contenu d'informations ici -->
+        </div>
+        
         <!-- Espace Actualités -->
         <div class="actualites">
             <h3>Actualités</h3>
             <ul>
-                <li>Nouveau cours de Sociologie ajouté !</li>
-                <li>Consultez les anciennes épreuves mises à jour.</li>
-                <li>Inscrivez-vous aux formations en méthodologie des sciences sociales.</li>
+                <li>Le parcours <strong>Prospective territoriale</strong> est disponible dans la rubrique cours</li>
+                <!--<li>Consultez les anciennes épreuves mises à jour.</li>
+                <li>Inscrivez-vous aux formations en méthodologie des sciences sociales.</li>-->
             </ul>
             <!-- Ajoutez plus d'actualités ici -->
         </div>
@@ -64,11 +72,11 @@
         <h2>Cours Disponibles</h2>
         <div class="cartes">
             <div class="carte">
-                <h3>Cours de Sociologie</h3>
+                <h3>Prospective territoriale</h3>
                 <p>Une description du cours de sociologie.</p>
-                <a href="#">En savoir plus</a>
+                <a href="cours/prospective/prospective.html">Etudier</a>
             </div>
-            <div class="carte">
+            <!--<div class="carte">
                 <h3>Cours d'Anthropologie</h3>
                 <p>Une description du cours d'anthropologie.</p>
                 <a href="#">En savoir plus</a>
@@ -77,7 +85,7 @@
                 <h3>Cours de Psychologie</h3>
                 <p>Une description du cours de psychologie.</p>
                 <a href="#">En savoir plus</a>
-            </div>
+            </div>-->
             <!-- Ajoutez plus de cartes de cours ici -->
         </div>
     </section>
@@ -87,19 +95,14 @@
         <h2>Anciennes Épreuves</h2>
         <div class="cartes">
             <div class="carte">
-                <h3>Épreuves de Sociologie 2022</h3>
-                <p>Une description des épreuves de sociologie de l'année 2022.</p>
-                <a href="#">Télécharger</a>
+                <h3>Épreuves de Sociologie</h3>
+                <p>Contenu en attente de réalisation</p>
+                <a href="#">Consulter</a>
             </div>
             <div class="carte">
-                <h3>Épreuves d'Anthropologie 2021</h3>
-                <p>Une description des épreuves d'anthropologie de l'année 2021.</p>
-                <a href="#">Télécharger</a>
-            </div>
-            <div class="carte">
-                <h3>Épreuves de Psychologie 2020</h3>
-                <p>Une description des épreuves de psychologie de l'année 2020.</p>
-                <a href="#">Télécharger</a>
+                <h3>Épreuves d'Anthropologie</h3>
+                <p>Contenu en attente de réalisation</p>
+                <a href="#">Consulter</a>
             </div>
             <!-- Ajoutez plus de cartes d'épreuves ici -->
         </div>
@@ -205,7 +208,7 @@
             <input type="text" id="username" placeholder="Nom d'utilisateur">
             <textarea id="message" placeholder="Écrivez votre message ici"></textarea>
             <button type="submit">Envoyer</button>
-        </form>    
+        </form>
     </section>
     
     <!-- Pied de page -->
@@ -214,7 +217,7 @@
         <p>© 2023 Plateforme Éducative. Tous droits réservés.</p>
     </footer>
     <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="script_formation.js"></script>
+    <script type="text/javascript" src="formation/formation.js"></script>
 </body>
 </html>
 
