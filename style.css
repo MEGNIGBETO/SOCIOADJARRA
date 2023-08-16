@@ -344,16 +344,17 @@ section h2 {
     display: flex;
     border: 1px solid #ccc;
     border-radius: 5px;
+    flex-direction: column;
   }
   
   .video iframe {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 315px;
     margin-right: 10px;
     border-radius: 5px 0 0 5px;
   }
   
-  .video-details {
+  .video-content {
     flex: 1;
     padding: 10px;
     display: flex;
