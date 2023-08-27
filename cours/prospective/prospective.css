@@ -128,10 +128,23 @@ button {
 
 /* Pour les écrans plus petits */
 @media screen and (max-width: 900px) {
-    .contenu {
-      margin-left: 2%;
-      margin-right: 2%;
-    }
+
+  .navbar {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+  }
+
+  .navbar .logo {
+    top: 25px;
+    left: 25px;
+    position: absolute;
+  }
+  
+  .contenu {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
 
 /* Le CSS pour le pied de page */
