@@ -140,7 +140,15 @@ button {
     left: 25px;
     position: absolute;
   }
-  
+
+  .navbar .nav-links {
+    top: 25px;
+    right: 25px;
+    position: absolute;
+    display: block;
+    font-weight: bold;
+  }
+
   .contenu {
     margin-left: 2%;
     margin-right: 2%;
