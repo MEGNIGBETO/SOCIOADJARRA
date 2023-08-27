@@ -5,7 +5,6 @@ const toggleSummaryBtn = document.getElementById('toggleSummaryBtn');
 const sidebar = document.getElementById('sidebar');
 const sectionIllustration = document.getElementById('section-illustration');
 const prevBtn = document.getElementById('prevBtn');
-const summaryBtn = document.getElementById('summaryBtn');
 const nextBtn = document.getElementById('nextBtn');
 
 let currentSection = 0;
@@ -76,8 +75,6 @@ prevBtn.addEventListener('click', () => {
   }
 });
 
-summaryBtn.addEventListener('click', showSummary);
-
 nextBtn.addEventListener('click', () => {
   if (currentSection < sections.length - 1) {
     currentSection++;
@@ -87,3 +84,5 @@ nextBtn.addEventListener('click', () => {
 
 // Chargement initial de la première section
 loadSection(currentSection);
+
+

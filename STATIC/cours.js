@@ -8,7 +8,7 @@ $(document).ready(function() {
                 <img src="images/${cours.image}" alt="Image du cours">
                 <h3>${cours.nom}</h3>
                 <p>${cours.description}</p>
-                <a href="#cours/${cours.lien}">Etudier</a>
+                <a href="cours/${cours.lien}">Etudier</a>
             </div>
           `;
           

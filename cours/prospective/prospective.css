@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Styles pour l'en-tête */
@@ -68,7 +69,11 @@ header {
 #sidebar.hidden {
     display: block; /* Afficher lorsqu'on supprime la classe hidden */
 }
-  
+
+#sidebar h2 {
+    margin-bottom: 10px;
+}
+
 #content {
     flex: 3;
     padding: 20px;
@@ -82,6 +87,31 @@ header {
 #sections-list li {
     margin-bottom: 10px;
 }
+
+#sections-list li:hover {
+  margin-bottom: 10px;
+  background-color: #363636;
+  color: #f4f4f4;
+  padding: 10px 5px;
+}
+
+#section-content {
+  text-align: justify;
+}
+
+#section-title {
+  margin: 15px 0;
+  color: #007bff;
+  font-size: large;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 10px;
+  color: #f4f4f4;
+  background-color: #363636;
+  font-size: medium;
+}
   
 #navigation {
     margin-top: 20px;
@@ -91,62 +121,16 @@ header {
     margin-right: 10px;
 }
 
+.contenu {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 /* Pour les écrans plus petits */
 @media screen and (max-width: 900px) {
-    .navbar {
-      margin: 0px;
-      padding: 0px;
-      width: 100vw;
-    }
-
-    .navbar .menu-hamburger {
-      top: 25px;
-      right: 25px;
-      position: absolute;
-      display: block;
-    }
-
-    .navbar .logo {
-      top: 25px;
-      left: 25px;
-      position: absolute;
-    }
-
-    .nav-links {
-      top: 0;
-      left: 0;
-      position: absolute;
-      background-color: rgba(0, 0, 0, 0.97);
-      /*backdrop-filter: blur(7px);*/
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: -100%;
-      transition: all 0.5s ease;
-    }
-
-    .nav-links.mobile-menu{
-      margin-left: 0;
-    }
-
-    .nav-links ul{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .nav-links ul li{
-        font-size: 1.5em;
-        font-weight: bold;
-        padding-bottom: 50px;
-      }
-
-    .nav-links ul li a{
-      margin: 25px 0;
-      font-size: 1.2em;
-      color: #007bff;
+    .contenu {
+      margin-left: 2%;
+      margin-right: 2%;
     }
 }
 

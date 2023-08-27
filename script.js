@@ -28,6 +28,8 @@ function naviguer(e) {
     const sectionId = lien.getAttribute('href').substring(1); // Enlève le caractère '#' du lien
 
     afficherSection(sectionId);
+    document.querySelector(".nav-links").classList.toggle('mobile-menu');
+    
 }
 
 // Écouteurs d'événements pour les liens de navigation
@@ -37,6 +39,15 @@ document.querySelectorAll('nav a').forEach(lien => {
 
 // Afficher la section Accueil par défaut
 afficherSection('accueil');
+
+
+
+
+
+
+
+
+/*
 
 // Code JavaScript pour la fonctionnalité du forum de discussion
 
@@ -110,3 +121,4 @@ $(".dislike-button").click(function() {
 });
 });
 
+*/
