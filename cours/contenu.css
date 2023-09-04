@@ -1,10 +1,8 @@
 /* Réinitialisation des styles par défaut */
 * {
     margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,6 +38,7 @@ header {
 
 .navbar .nav-links ul {
   display: flex;
+  list-style: none;
 }
 
 .navbar .nav-links ul li {
@@ -49,14 +48,6 @@ header {
 .navbar .nav-links ul li:active a {
   color: #007bff;
   font-weight: 600;
-}
-
-.navbar .menu-hamburger {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 50px;
-  width: 20px;
 }
 
 #sidebar {
@@ -106,6 +97,24 @@ header {
   font-weight: bold;
 }
 
+.sous-section-title {
+  margin: 15px 0 0 0;
+  padding: 0;
+  color: #007bff;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.sous-section-content {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.sous-section-list {
+  list-style: square;
+  margin-left: 15px;
+}
+
 button {
   padding: 5px 10px;
   color: #f4f4f4;
@@ -140,6 +149,7 @@ button {
     left: 25px;
     position: absolute;
   }
+
 
   .navbar .nav-links {
     top: 25px;

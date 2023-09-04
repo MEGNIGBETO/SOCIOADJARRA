@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "sectionTitle": "Introduction",
+    "sousSectionTitle": [
+                         "",
+                         "" 
+                        ],
+    "sousSectionContent": [
+                            "La quête aux informations pertinentes et utiles dans tout processus qui s'entend le plus objectif que possible, requiert de mettre en place un cadre de travail qui obéit à des principes scientifiques éprouvés. La collecte des données renvoie ainsi à un travail méthodique et rigoureux qui garantit in fine l'acquisition de données fiable, utile et exploitable. La méthode à employer dans cette démarche, prend alors en compte en amonts la nature des d'informations à collecter, l'usage futur des informations à collectées, les différents utilisateurs des résultats etc. Il existe donc différentes approches et plusieurs méthodes de collectes pouvant être mis en œuvre au cours du processus en fonction des objectifs attendus.",
+                            "Les objectifs du présent travail sont de faire un point sur les différents approches qui peuvent être adoptées en matière de collecte de données, d'examiner ensuite les méthodes d'échantillonnage puis de faire une synthèse des techniques de traitement statistiques. La démarche adoptée se veut appliquer. Les différentes étapes de la présentation renvoient ainsi à un cas pratique d'application des outils et techniques présentés."
+                          ],
+    "sousSectionIllustration": [
+                                "",
+                                ""
+                              ],
+    "sousSectionList": [
+                        "",
+                        ""
+                      ]
+  },
+  {
+    "id": 2,
+    "sectionTitle": "Approche pour la collecte des données",
+    "sousSectionTitle": [
+                         "",
+                         "Approche structurée",
+                         "",
+                         "Approche non structurée"
+                        ],
+    "sousSectionContent": [
+                            "Deux différentes approches distinctes mais non exclusives émergent dans la démarche de collecte des données. Elles s'identifient par la nature des données à collectées : on parle d'approche structurée et d'approche non structurée.",
+                            "Il est question d'approche structurée lorsque les outils employés pour la collecte des données sont des outils structurés tels qu'un questionnaire, un guide d'entretien ou une grille d'observation. Les informations recueillies sont ainsi susceptibles d'être disposées dans une base de données permettant d'identifier chaque unité statistique est les informations recueillies qui lui sont associées à partir d'une requête informatique (lorsque la base de données est informatisée).",
+                            "Dans le cadre d'une évaluation de projet par exemple, les outils de collecte doivent être disponibles à l'opérationnalisation du système de suivi et d'évaluation. Cela requiert donc d'être le plus précis que possible à la phase d'identification des indicateurs à mesurer.",
+                            "L'approche adoptée est qualifiée de non structurée lorsque informations sont recueillies, non sur l'emploi d'outils de collecte préalablement défini, mais sur la base par exemple de lecture de documents écrits, audio ou vidéo. Il peut aussi s'agir d'une expérience d'immersion afin de vivre le fait à constater."
+                          ],
+    "sousSectionIllustration": [
+                                "",
+                                "",
+                                "",
+                                ""
+                              ],
+    "sousSectionList": [
+                        "",
+                        "",
+                        "",
+                        ""
+                      ]
+  },
+  {
+    "id": 3,
+    "sectionTitle": "Méthodes d'échantillonnage",
+    "sousSectionTitle": [
+                         "",
+                         "La méthode de choix de l'échantillon",
+                         "La taille de l'échantillon" 
+                        ],
+    "sousSectionContent": [
+                          "La collecte de données, dans la plupart des cas nécessite le recourt à la sélection d'une portion de la population : un échantillon. En effet, si la collecte peut être réalisée auprès de l'ensemble de la population concernée, le problème de choix de l'échantillon ne se pose pas. Mais elle est souvent trop longue et onéreuse d'essayer d'interroger toute la population. Le processus de sélection d'un échantillon pour représenter la population entière est appelé échantillonnage. Pour obtenir un échantillon représentatif, deux éléments sont à prendre en compte : la méthode de choix et la taille de l'échantillon.",
+                          "Pour être représentatif, un échantillon doit être obtenu par une méthode rigoureuse qui permet de choisir les enquêtés sans biais. Cela revient à assurer à toute unité de la population la possibilité de figurer dans l'échantillon.",
+                          "Même obtenue par une méthode rigoureuse de choix, un échantillon sera plus ou moins précis selon sa taille. Pour améliorer la précision du sondage, on augmente donc la taille de l'échantillon. Si un échantillon est représentatif (méthode de choix rigoureux, taille suffisante), on peut penser que les informations recueillies auprès de cet échantillon ne s'écartent guère des informations de la population parente. Si ce n'est le cas, les conclusions ne pourront s'appliquer qu'à l'échantillon interrogé. Deux types de procédés permettent de construire des échantillons représentatifs :"
+                        ],
+    "sousSectionIllustration": [
+                                "",
+                                "",
+                                ""
+                              ],
+    "sousSectionList": [
+                        "",
+                        "",
+                        "<li>les techniques probabilistes où les éléments sont désignés par tirage au sort et interrogés nommément ;</li><li>les techniques non aléatoire ou empiriques où les éléments choisis sur le terrain en fonction des jugements sur les caractéristiques de la population ou bien en reconstituant le hasard.</li>"
+                      ]
+  },
+  {
+    "id": 4,
+    "sectionTitle": "Les échantillons probabilistes ou aléatoires",
+    "sousSectionTitle": [
+                         "",
+                         "Tirage simple au hasard",
+                         "",
+                         "Tirage systématique",
+                         "Tirage aléatoire après stratification",
+                         "",
+                         "Tirage par grappes ou groupes"
+                        ],
+    "sousSectionContent": [
+                            "Ils ont en commun de faire intervenir le hasard dans la désignation des éléments à interroger. Le hasard correspond au cas où tous les individus de la population ont une probabilité connue, non nulle, de faire partie de l'échantillon.",
+                            "On tire au hasard dans la base de sondage les sujets qui composeront l'échantillon en donnant à chaque individu une chance égale d'être sélectionné. La première opération consiste à établir la liste exhaustive des individus de la population. On aura par exemple recours à fichiers existants ou à des registres, pourvu qu'ils soient complets, à jour et adaptés à la population à enquêter. Une fois la base de sondage dressée, les éléments en sont numérotés de 1 à N, puis le tirage de n numéros est réalisé (si l'échantillon doit comporter n éléments) : les sujets correspondants aux n numéros « sortis » constitueront l'échantillon. Il faut ensuite interroger nommément les personnes désignées par le sort.",
+                            "Pour le tirage des numéros, la méthode de loterie peut être utilisée : par exemple une main innocente tire successivement dans un chapeau n fiches nominatives parmi l'ensemble des fiches convenablement mélangées. Il est également possible d'utiliser une table de nombres aléatoires ou des nombres pseudo-aléatoires générés par ordinateur.",
+                            "Si la liste est longue, on peut procéder à un tirage systématique d'une unité à intervalle régulier (par exemple toutes les 50, 100, 500, … selon le nombre de personne à interroger). Ainsi, pour tirer 200 sujets sur 5000, le taux de sondage est de 1/25. La raison de la progression sera 25.On sélectionne donc un sujet tous les 25 après avoir choisi au hasard un point de départ (entre 1 et 25). Un échantillon par tirage systématique est équivalent à un échantillon par tirage au hasard simple si la première personne est tirée au hasard.",
+                            "Pour s'assurer de l'exacte répartition des sujets pour certaines caractéristiques, on a la possibilité de recourir à un échantillonnage stratifié. Cette procédure implique une classification de la population en sous population (les strates). Un tirage aléatoire est réalisé est réalisé séparément dans chaque strate : il y a donc autant de base de sondage et de sous-échantillons qu'il y a de strates dans la population. Les sous échantillons peuvent être prélevés avec un taux de sondage constant à l'intérieur de chaque strate, ou variable d'une strate à l'autre.",
+                            "Dans le premier cas, la bonne représentativité de l'échantillon selon les critères de stratification est assurée. Dans le second cas, les résultats d'ensemble devront évidemment être pondérés en sens inverse pour rétablir la structure initiale. Choisir un taux de sondage différent dans chaque strate peux être avantageux :",
+                            "L'unité de sondage n'est plus un élément mais un groupe d'éléments ayant entre eux un lien naturel (habitant d'un même immeuble, écolier d'une même classe, ouvrier d'un même atelier). La base de sondage à établir est alors la liste de tous ces groupes. Le tirage aléatoire sélectionne des grappes dans lesquelles tous les éléments seront interrogés : il n'est donc pas nécessaire de faire la liste nominative de tous les membres de la population. L'avantage de l'échantillon par grappes réside bien évidemment dans les facilités à constituer la base de sondage et la moindre dispersion des sujets à interroger."
+                          ],
+    "sousSectionIllustration": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                              ],
+    "sousSectionList": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<li>pour diminuer le coût de l'enquête : choisir par exemple un taux de sondage plus faible dans les zones ou les habitats sont dispersés et éloignés les uns des autres ;</li><li>pour étudier avec un fort grossissement un sous-groupe particulièrement intéressant et peu nombreux dans la population ;</li><li>pour avoir des sous-groupes de même taille s'ils sont destinés à être comparés.</li>",
+                        ""
+                      ]
+  },
+  {
+    "id": 5,
+    "sectionTitle": "Méthodes de collectes non aléatoires",
+    "sousSectionTitle": [
+                         "",
+                         "Echantillon par quotas",
+                         "",
+                         "Choix raisonné",
+                         "Méthode boule de neige"
+                        ],
+    "sousSectionContent": [
+                          "Lorsqu'on ne dispose pas de base de sondage, il est néanmoins encore possible d'élaborer des échantillons représentatifs. Le choix des sujets à interroger est alors entièrement effectué sur le terrain, avec des règles très précises.",
+                          "Par ce procédé, on s'attache à construire un échantillon qui ressemble à la population parente, à partir d'informations statistiques sur la structure de cette population : un modèle réduit est établi. Le principe qui réside à cette méthode est qu'un échantillon identique à la population en ce qui concerne la répartition de certains caractères (variables contrôlées) sera peu différent en ce qui concerne la répartition des autres variables (non contrôlées). Les variables contrôlées sont par exemples le sexe, l'âge, la taille de la commune de résidence, la profession du chef de ménage, la profession du répondant, le niveau d'étude.",
+                          "Pour établir les quotas, il est nécessaire de disposer des statistiques à jour concernant la population à enquêter (recensement, statistique diverses des instituts, des ministères et des services publics…). Le plan d'échantillonnage reproduit les distributions relevées dans les statistiques fixes, pour un échantillon de taille donnée, le nombre d'individus de chaque catégorie à interroger. L'avantage de la méthode des quotas réside dans les faits suivants :",
+                          "Le choix raisonné amène à choisir des individus typiques selon les informations recherchées. Il peut s'agir d'individus moyens représentatifs d'un groupe. Bien entendu, le résultat est fonction du choix que l'on fait des unités types. La justification de cette méthode qui peut sembler naturelle et relativement simple, n'est pas statistique, mais sociologique.",
+                          "Cette technique est adaptée à des enquêtes auprès de personnes possédant certaines caractéristiques rares. Ayant identifié quelques personnes appartenant à la population parente, il leur est demandé d'indiquer d'autres personnes de leur connaissance possédant la même caractéristique. On constituera ainsi des échantillons de personnes qui possèdent une certaine ancienneté dans la production d'une spéculation agricole particulière. Cette technique convient aussi à l'étude des réseaux relationnels. Si la boule de neige n'est pas défendable d'un point de vue statistique, elle a pour elle des arguments pratiques ou quelquefois sociologiques."
+                        ],
+    "sousSectionIllustration": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                              ],
+    "sousSectionList": [
+                        "",
+                        "",
+                        "<li>elle ne requiert pas l'existence d'un fichier de référence : une connaissance statistique de la population suffit ;</li><li>elle est économique comparativement aux échantillons aléatoires où il faut revenir plusieurs fois pour rencontrer la personne désignée ;</li><li>elle autorise la publication de chiffres sur l'ensemble de l'échantillon et donc l'écriture d'énoncés généraux.</li>",
+                        "",
+                        ""
+                      ]
+  },
+  {
+    "id": 6,
+    "sectionTitle": "Techniques et outils de traitement statistique",
+    "sousSectionTitle": [
+                         "",
+                         "Approche qualitative",
+                         "Approche quantitative"
+                        ],
+    "sousSectionContent": [
+                            "Le dépouillement, le traitement et l'analyse des données sont fonction de la méthode utilisée. Nous identifions deux modes de traitement : le traitement quantitatif et le traitement qualitatif.",
+                            "Après un entretien, il faut toujours retranscrire les informations recueillies. La retranscription conserve le discours à la première personne et doit être la plus fidèle possible. Elle doit être lisible par un tiers, ce qui suppose parfois d'expliciter, par exemple, en indiquant clairement qu'il s'agit de commentaires de l'enquêteur, des non-dits, des impressions, des émotions qui sont passés pendant l'entretien. La retranscription précise aussi les caractères sociodémographiques de l'enquêté, cette fiche signalétique devant respecter l'engagement d'anonymisation des données. Une fois la retranscription terminée, nous avons la phase d'analyse proprement dite qui se déroule en trois étapes : l'analyse thématique transversale, l'analyse descriptive et l'analyse explicative.",
+                            "Les indicateurs de l'enquête ont été traduits en questions. Au moment de l'analyse statistique, chaque question de l'enquête devient une variable (ou parfois même plusieurs variables). Une variable est une quantité susceptible de prendre un certain nombre de valeurs (par opposition à une constante). Les variables peuvent être numérique ou non. L'information peut être saisie sur un tableur classique (type MS Excel, SPSS, etc.) en prévoyant une ligne pour chaque sujet et une colonne par variable de l'enquête. Les données subissent ensuite un traitement informatique. Dans une approche statistique (quantitative) l'analyse de données va du plus simple (examen d'une seule variable) à l'analyse multivariée (plusieurs variables prise en compte simultanément) en passant par le tri croisé (deux variables). Dans le but de tester différentes hypothèses, l'on peut faire recours à des inférences de statistiques : estimations de valeurs, calcule d'intervalle de confiance etc."
+                          ],
+    "sousSectionIllustration": [
+                                "",
+                                "",
+                                ""
+                              ],
+    "sousSectionList": [
+                        "",
+                        "",
+                        ""
+                      ]
+  }
+]

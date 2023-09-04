@@ -1,26 +1,34 @@
 [
-    {
-      "id": 1,
-      "section": "Introduction au concept de prospective",
-      "paragraphe": "Une approche de clarification du concept de prospective consiste à mettre en relief les postulats de base de cette discipline. Loin d'être une science qui cherche à prédire l'avenir, elle se différencie de la prévision et de la divination. Parlant des postulats sur lesquels elle repose, Hugues de Jouvenel les résume en ces termes : l'avenir est domaine de liberté, l'avenir est domaine de pouvoir, et l'avenir est domaine de volonté. Il rejoint ainsi Gaston Berger qui nous invite à « considérer l'avenir non plus comme une chose déjà décidée et qui, petit à petit, se découvrirait à nous, mais comme une chose à faire ». Bertrand de Jouvenel n'écrit-il pas aussi « à l'égard du passé la volonté de l'homme est vaine, sa liberté est nulle, son pouvoir inexistant (…). Le passé est le lieu des faits sur lesquels je ne puis rien, il est aussi du même coup le lieu des faits connaissables ».",
-      "illustration": ""
-    },
-    {
-      "id": 2,
-      "section": "L'avenir est domaine de liberté",
-      "paragraphe": "Dire que l'avenir est domaine de liberté signifie que la prospective considère que l'avenir n'est pas déjà fait, prédéterminé, qu'il est ouvert à plusieurs futurs possibles : les futuribles. Le futur n'est pas prédictible avec certitude et plus les incertitudes s'accroissent, la prospective sera vaine comme réducteur d'angoisse. De tout temps, l'homme a cherché à réduire les incertitudes à travers la quête d'invariants et des assurances dans la parole d'autrui ou dans l'élaboration de lois et de contrats. Cependant, l'avenir est loin d'être régi par des lois invariantes, il demeure largement indéterminé et ouvert. Pour le sujet agissant, ces plages d'indétermination constitueront autant d'espaces de liberté, et de marges d'autodétermination. Outre ces incertitudes, s'ajoutent les tendances à ne pas négliger qui guide les actions du prospectiviste ainsi que « les faits porteurs d'avenir » (Pierre Massé).",
-      "illustration": ""
-    },
-    {
-      "id": 3,
-      "section": "L'avenir est domaine de pouvoir",
-      "paragraphe": "Pour le décideur qui manque de prévision, il n'y a pas de liberté de décision et il est acculés à gérer les urgences. « Quand il est urgent, c'est déjà trop tard » disait alors Talleyrand. Le moyen qu'il n'en soit pas ainsi est de prendre conscience des situations en formation quand elles sont encore modelables, avant qu'elle n'est pris une forme impérieusement contraignante. La rapidité du changement, son imprévisibilité croissante ont suscité le développement de théories telles que celle de la réactivité. Mais pour des questions de développement, de gestion d'équipe, d'organisation, il n'est pas approprié d'être juste réactif. Hugues de Jouvenel ajoute que seul le temps long est le seul sur lequel peuvent être engagé des actions en profondeur car sur des horizons de moins de cinq années, les jeux sont presque faits, des marges de manœuvre très limitées. Par ailleurs, face à l'incertitude, trois attitudes se distinguent : la passivité, la réactivité et la prospective dans le double sens de la pré-activité et de la pro-activité (Michel Godet). Dire que l'avenir est domaine de pouvoir, ne signifie pas que nous disposons d'un pouvoir absolu, mais sur une même scène, il coexiste différents acteurs qui exercent simultanément différents pouvoirs, plus ou moins puissants et plus ou moins conflictuels. Cela renvoie à la dialectique de l'acteur et du système analysé par Michel Crozier et qui explique que toute réflexion prospective se doit d'intégrer, non seulement l'ensemble des facteurs, mais aussi le jeu des acteurs.",
-      "illustration": ""
-    },
-    {
-      "id": 4,
-      "section": "L'avenir est domaine de volonté",
-      "paragraphe": "Il convient de soulevé ici le concept de projet en tant que expression d'un vouloir qui pour être accompli, s'inscrit dans la durée, une durée d'autant plus longue que sa mise en œuvre implique une rupture avec l'ordre existant. Cela renvoie à la formulation de visions d'un avenir meilleur qui passées au crible des études de faisabilité, deviendront de véritables moteurs de l'action. Cette conception rejoint l'affirmation de Sénèque qui dit qu'« il n'y a de vent favorable que pour celui qui sait où il va ».",
-      "illustration": ""
-    }
+  {
+    "id": 1,
+    "sectionTitle": "Introduction au concept de prospective",
+    "sousSectionTitle": [
+                          "",
+                          "",
+                          "L'avenir est domaine de liberté",
+                          "L'avenir est domaine de pouvoir",
+                          "L'avenir est domaine de volonté"
+                      ],
+    "sousSectionContent": [
+                          "Une approche de clarification du concept de prospective consiste à mettre en relief les postulats de base de cette discipline. Loin d'être une science qui cherche à prédire l'avenir, elle se différencie de la prévision et de la divination. Parlant des postulats sur lesquels elle repose, Hugues de Jouvenel les résume en ces termes :",
+                          "Il rejoint ainsi Gaston Berger qui nous invite à « considérer l'avenir non plus comme une chose déjà décidée et qui, petit à petit, se découvrirait à nous, mais comme une chose à faire ». Bertrand de Jouvenel n'écrit-il pas aussi « à l'égard du passé la volonté de l'homme est vaine, sa liberté est nulle, son pouvoir inexistant (…). Le passé est le lieu des faits sur lesquels je ne puis rien, il est aussi du même coup le lieu des faits connaissables ».",
+                          "Dire que l'avenir est domaine de liberté signifie que la prospective considère que l'avenir n'est pas déjà fait, prédéterminé, qu'il est ouvert à plusieurs futurs possibles : les futuribles. Le futur n'est pas prédictible avec certitude et plus les incertitudes s'accroissent, la prospective sera vaine comme réducteur d'angoisse. De tout temps, l'homme a cherché à réduire les incertitudes à travers la quête d'invariants et des assurances dans la parole d'autrui ou dans l'élaboration de lois et de contrats. Cependant, l'avenir est loin d'être régi par des lois invariantes, il demeure largement indéterminé et ouvert. Pour le sujet agissant, ces plages d'indétermination constitueront autant d'espaces de liberté, et de marges d'autodétermination. Outre ces incertitudes, s'ajoutent les tendances à ne pas négliger qui guide les actions du prospectiviste ainsi que « les faits porteurs d'avenir » (Pierre Massé).",
+                          "Pour le décideur qui manque de prévision, il n'y a pas de liberté de décision et il est acculés à gérer les urgences. « Quand il est urgent, c'est déjà trop tard » disait alors Talleyrand. Le moyen qu'il n'en soit pas ainsi est de prendre conscience des situations en formation quand elles sont encore modelables, avant qu'elle n'est pris une forme impérieusement contraignante. La rapidité du changement, son imprévisibilité croissante ont suscité le développement de théories telles que celle de la réactivité. Mais pour des questions de développement, de gestion d'équipe, d'organisation, il n'est pas approprié d'être juste réactif. Hugues de Jouvenel ajoute que seul le temps long est le seul sur lequel peuvent être engagé des actions en profondeur car sur des horizons de moins de cinq années, les jeux sont presque faits, des marges de manœuvre très limitées. Par ailleurs, face à l'incertitude, trois attitudes se distinguent : la passivité, la réactivité et la prospective dans le double sens de la pré-activité et de la pro-activité (Michel Godet). Dire que l'avenir est domaine de pouvoir, ne signifie pas que nous disposons d'un pouvoir absolu, mais sur une même scène, il coexiste différents acteurs qui exercent simultanément différents pouvoirs, plus ou moins puissants et plus ou moins conflictuels. Cela renvoie à la dialectique de l'acteur et du système analysé par Michel Crozier et qui explique que toute réflexion prospective se doit d'intégrer, non seulement l'ensemble des facteurs, mais aussi le jeu des acteurs.",
+                          "Il convient de soulevé ici le concept de projet en tant que expression d'un vouloir qui pour être accompli, s'inscrit dans la durée, une durée d'autant plus longue que sa mise en œuvre implique une rupture avec l'ordre existant. Cela renvoie à la formulation de visions d'un avenir meilleur qui passées au crible des études de faisabilité, deviendront de véritables moteurs de l'action. Cette conception rejoint l'affirmation de Sénèque qui dit qu'« il n'y a de vent favorable que pour celui qui sait où il va »."
+                      ],
+    "sousSectionIllustration": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                              ],
+    "sousSectionList": [
+                        "<li>l'avenir est domaine de liberté,</li> <li>l'avenir est domaine de pouvoir,</li> <li> et l'avenir est domaine de volonté.</li>",
+                        "",
+                        "",
+                        "",
+                        ""
+                      ]
+  }
 ]

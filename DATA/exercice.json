@@ -1,0 +1,14 @@
+[
+    {
+        "id":"1",
+        "intitule":"Sociologie",
+        "description":"Renforces toi sur les concepts fondamentaux de la sociologie et exerces toi!",
+        "lien":""
+    },
+    {
+        "id":"2",
+        "intitule":"Prospective",
+        "description":"Découvres de manière méthodique la démarche prospective à travers des cas d'applications.",
+        "lien":""
+    }
+]

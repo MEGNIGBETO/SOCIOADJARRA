@@ -170,6 +170,12 @@ section h2 {
     background-color: #0056b3;
 }
 
+.cartes-exercice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 /* Style général sur la section formation */
 .formations-container {
     display: grid;
