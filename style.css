@@ -549,6 +549,16 @@ header h1 {
     background-color: #0056b3;
 }
 
+
+/* CSS pour la section À propos */
+
+#apropos {
+  margin: 0 15%;
+  text-align: justify;
+}
+
+
+
 /* Le CSS pour le pied de page */
 
 footer {

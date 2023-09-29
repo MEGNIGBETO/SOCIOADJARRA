@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme Éducative</title>
+    <link rel="stylesheet" href="../exercice.css">
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="#" class="logo">Plateforme Éducative</a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a id="retour" href="../../index.html">Retour</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="exercice">
+        <h1>Générateur d'épreuve</h1>
+
+        <label for="disciplineList">Discipline:</label>
+        <select id="disciplineList" class="filterList">
+            <option value="">Sélectionnez une discipline</option>
+        </select>
+
+        <label for="selectKey">Intitule:</label>
+        <select id="intituleList" class="filterList">
+            <option value="">Sélectionnez un intitulé</option>
+        </select>
+
+        <label for="selectKey">Type de sujet:</label>
+        <select id="typeList" class="filterList">
+            <option value="">Sélectionnez un Type de sujet</option>
+        </select>
+
+        <!--<label for="filterValue">Entrez la valeur de filtrage :</label>
+        <input type="text" id="filterValue">
+
+        <button id="filterButton">Générer</button>-->
+
+        <div id="results">
+            <!-- Les résultats seront affichés ici -->
+        </div>
+
+        
+    </div>
+    
+    <footer>
+        <p>© 2023 Plateforme Éducative. Tous droits réservés.</p>
+    </footer>
+    <script type="text/javascript" src="../../STATIC/cdnjs/tex-mml-chtml.js"></script>
+    <script type="text/javascript" src="../../STATIC/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="exercice.js"></script>
+</body>
+</html>

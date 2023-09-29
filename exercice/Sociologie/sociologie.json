@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "discipline":"Concepts fondamentaux de la sociologie",
+        "type":"Q/R",
+        "intitule":"Quel est l'objet de la sociologie?"
+    },
+    {
+        "id": 1,
+        "discipline":"Introduction à la sociologie",
+        "type":"sujet",
+        "intitule":"Le fait social selon Emile Durkheim et Max Weber"
+    }
+]
