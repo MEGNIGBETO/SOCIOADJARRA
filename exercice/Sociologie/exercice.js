@@ -8,12 +8,12 @@ $(document).ready(function(){
 
         //créer une liste unique de toutes les valeurs pour chaque clé
         var disciplines = getUniqueValues("discipline", data);
-        var intitules = getUniqueValues("intitule", data);
+        //var intitules = getUniqueValues("intitule", data);
         var types = getUniqueValues("type", data);
 
         //Remplir les listes de fitrage
         fillFilterList("disciplineList", disciplines);
-        fillFilterList("intituleList", intitules);
+        //fillFilterList("intituleList", intitules);
         fillFilterList("typeList", types);
 
         //Gérer le changement de sélection dans les listes de filtrage
@@ -42,14 +42,14 @@ $(document).ready(function(){
     //Fonction pour appliquer les filtres et afficher les résultats
     function applyFilters(){
         var selectedDiscipline = $("#disciplineList").val();
-        var selectedIntitule = $("#intituleList").val();
+        //var selectedIntitule = $("#intituleList").val();
         var selectedType = $("#typeList").val();
 
         //Filtrer les données et stocker le résultat
         var filteredData = jsonData.filter(function(item){
             return (
                 (selectedDiscipline === "" || item.discipline === selectedDiscipline) &&
-                (selectedIntitule === "" || item.intitule === selectedIntitule) &&
+                //(selectedIntitule === "" || item.intitule === selectedIntitule) &&
                 (selectedType === "" || item.type === selectedType)
             );
         });
@@ -87,7 +87,7 @@ $(document).ready(function(){
         downloadLink.textContent = "Télécharger les résultats au format JSON";
         
         //Ajouter le lien de téléchargement à la page
-        $("#results").append(downloadLink);
+        //$("#results").append(downloadLink); //L'enlever du commentaire pour activer l'option
     }
 
 });
