@@ -1,14 +1,38 @@
 [
     {
         "id": 1,
-        "discipline":"Concepts fondamentaux de la sociologie",
+        "niveau": "L1",
+        "discipline":"Introduction à la sociologie",
         "type":"Q/R",
-        "intitule":"Quel est l'objet de la sociologie?"
+        "intitule":[
+                    "Pourquoi dit-on que la sociologie est une science?",
+                    "Quel est l'objet de la sociologie?",
+                    "Qui sont les pères fondateurs de la sociologie?",
+                    "Définir les concepts: fait social, sociologie, action sociale",
+                    "Quels sont les éléments qui caractérisent un fait social?"
+                ]
     },
     {
-        "id": 1,
+        "id": 2,
+        "niveau":"L1",
         "discipline":"Introduction à la sociologie",
         "type":"sujet",
-        "intitule":"Le fait social selon Emile Durkheim et Max Weber"
+        "intitule":[
+                    "Le fait social selon Emile Durkheim et Max Weber",
+                    "Analyse comparée de la définition du social selon E. Durkheim, M. Weber et K. Marx",
+                    "Présenter de manière succinte trois conception pré durkheimienne de l'étude de la société"
+                ]
+    },
+    {
+        "id": 3,
+        "niveau":"L2",
+        "discipline":"Organisations et dynamique de groupe",
+        "type":"Mixte",
+        "intitule":[
+                    "Pourquoi un groupe?",
+                    "Après avoir exposé trois différents sens du mot organisation et tenté une définition des théories des organisations, présentez de manière sommaire cinq (05) théories des organisations",
+                    "Philipp Selzénik, Bernard Chester, et Henry Fayol dans la pensée organisationnelle",
+                    "Citez dans l'ordre, les différentes théories qui permetent d'expliquer l'Essence de la dynamique d'une Organisation"
+                ]
     }
 ]

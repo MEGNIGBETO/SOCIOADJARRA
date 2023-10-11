@@ -54,8 +54,12 @@ $(document).ready(function(){
             );
         });
 
+       var donne = JSON.parse(JSON.stringify(filteredData));
+       
+       //alert(JSON.stringify(donne[0].intitule));
+
         //Afficher le résultat de filtre
-        displayResults(filteredData);
+        displayResults(donne);
 
         //Fonctionnaté pour téléchager le résultat de filtre en une chaîne JSON
         //Convertir les résultats en une chaîne JSON
@@ -65,16 +69,24 @@ $(document).ready(function(){
 
     // Fonction pour afficher les résultats
     function displayResults(results){
-        var resultHtml = "<h2>Résultats :</h2>";
+        var resultHtml = "";
         if(results.length === 0){
-            resultHtml += "<p>Aucun résultat trouvé.</p>";
+            resultHtml = "<p>Aucun résultat trouvé.</p>";
         } else {
-            results.forEach(function(item) {
+            /*results.forEach(function(item) {
                 resultHtml += "<p>Discipline : " + item.discipline + "<br>Intitulé : " + item.intitule + "<br>Type : " + item.type + "</p>";
+            });*/
+            var qrList = document.createElement("ol");
+            results[0].intitule.forEach(function(element){
+                var listItem = document.createElement("li");
+                listItem.textContent = element;
+                qrList.appendChild(listItem);
             });
+
+            resultHtml = (qrList);
         }
-        $("#results").html(resultHtml);
-    }
+        $("#epreuve").html(resultHtml);
+}
 
     //fonction pour créer un lien de téléchargement et l'ajouter à la page
     function linkDownload(objetToDownload){
