@@ -1,0 +1,7 @@
+A mettre dans DAT2/exercice.json pour generer la carte exo sur prospective
+    {
+        "id1":"2",
+        "intitule1":"Prospective",
+        "description1":"Découvres de manière méthodique la démarche prospective à travers des cas d'applications.",
+        "lien1":"Prospective/exercice.html"
+    }
