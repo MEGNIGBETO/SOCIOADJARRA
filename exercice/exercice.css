@@ -50,7 +50,50 @@ header {
   font-weight: 600;
 }
 
+.exercice {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+}
 
+h1 {
+  color: #007bff;
+  font-weight: 200;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.formFiltre{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+select{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+#epreuve {
+  margin-top: 30px;
+}
+
+#epreuve ol{
+  line-height: 25px;
+}
 
 /* Pour les écrans plus petits */
 @media screen and (max-width: 900px) {
@@ -76,10 +119,7 @@ header {
     font-weight: bold;
   }
 
-  .contenu {
-    margin-left: 2%;
-    margin-right: 2%;
-  }
+  
 }
 
 /* Le CSS pour le pied de page */

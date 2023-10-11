@@ -23,31 +23,28 @@
     <div class="exercice">
         <h1>Générateur d'épreuve</h1>
 
-        <label for="disciplineList">Discipline:</label>
-        <select id="disciplineList" class="filterList">
-            <option value="">Sélectionnez une discipline</option>
-        </select>
+        <div class="formFiltre">
+            <label for="selectKey">Niveau:</label>
+            <select id="niveauList" class="filterList">
+                <option value="">Sélectionnez le niveau</option>
+            </select>
 
-        <!--<label for="selectKey">Intitule:</label>
-        <select id="intituleList" class="filterList">
-            <option value="">Sélectionnez un intitulé</option>
-        </select>-->
+            <label for="disciplineList">Discipline:</label>
+            <select id="disciplineList" class="filterList">
+                <option value="">Sélectionnez une discipline</option>
+            </select>
+        </div>
+        
 
-        <label for="selectKey">Type de sujet:</label>
+        <!--<label for="selectKey">Type de sujet:</label>
         <select id="typeList" class="filterList">
             <option value="">Sélectionnez un Type de sujet</option>
-        </select>
-
-        <!--<label for="filterValue">Entrez la valeur de filtrage :</label>
-        <input type="text" id="filterValue">
-
-        <button id="filterButton">Générer</button>-->
+        </select>-->
 
         <div id="resultats">
-            <!-- Les résultats seront affichés ici -->
-            <h2>Epreuve</h2>
+            <!--<h2>Epreuve</h2>-->
             <div id="epreuve"></div>
-            
+            <!-- Les épreuves seront affichés ici -->
         </div>
 
         

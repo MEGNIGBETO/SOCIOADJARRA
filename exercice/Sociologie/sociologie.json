@@ -3,28 +3,20 @@
         "id": 1,
         "niveau": "L1",
         "discipline":"Introduction à la sociologie",
-        "type":"Q/R",
+        "type":"Mixte",
         "intitule":[
                     "Pourquoi dit-on que la sociologie est une science?",
                     "Quel est l'objet de la sociologie?",
                     "Qui sont les pères fondateurs de la sociologie?",
                     "Définir les concepts: fait social, sociologie, action sociale",
-                    "Quels sont les éléments qui caractérisent un fait social?"
-                ]
-    },
-    {
-        "id": 2,
-        "niveau":"L1",
-        "discipline":"Introduction à la sociologie",
-        "type":"sujet",
-        "intitule":[
+                    "Quels sont les éléments qui caractérisent un fait social?",
                     "Le fait social selon Emile Durkheim et Max Weber",
                     "Analyse comparée de la définition du social selon E. Durkheim, M. Weber et K. Marx",
                     "Présenter de manière succinte trois conception pré durkheimienne de l'étude de la société"
                 ]
     },
     {
-        "id": 3,
+        "id": 2,
         "niveau":"L2",
         "discipline":"Organisations et dynamique de groupe",
         "type":"Mixte",
@@ -33,6 +25,55 @@
                     "Après avoir exposé trois différents sens du mot organisation et tenté une définition des théories des organisations, présentez de manière sommaire cinq (05) théories des organisations",
                     "Philipp Selzénik, Bernard Chester, et Henry Fayol dans la pensée organisationnelle",
                     "Citez dans l'ordre, les différentes théories qui permetent d'expliquer l'Essence de la dynamique d'une Organisation"
+                ]
+    },
+    {
+        "id": 3,
+        "niveau":"L2",
+        "discipline":"Sciences sociales et espaces sociaux",
+        "type":"Mixte",
+        "intitule":[
+                    "Définir : routine paysanne, habitat rural, structure agraire",
+                    "Par quel terme désigne-t-on l'agencement de techniques culturales et l'association de plantes en vue d'une gestion de la fertilité du sol? Quels en sont les facteurs d'influence?",
+                    "A partir d'exemples précis, montrez en quoi la cohésion sociale est un facteur de diversification des paysages ruraux",
+                    "Quelle peut être la contribution de la sociologie rurale au développement rural au Bénin?",
+                    "Définissez les concepts suivants : sociologie urbaine, urbanisation, habitat, mixité sociale",
+                    "Donnez deux éléments empiriques qui justifient l'intérêt porté par les sociologues à la ville",
+                    "Citez les trois types de représentation d'une ville? justifiez votre réponse",
+                    "Quelles sont les caractéristiques que présentent les aires urbaines des villes africaines?",
+                    "Comment peut-on faire l'expérience sensorielle d'une ville?"
+                ]
+    },
+    {
+        "id": 4,
+        "niveau":"L2",
+        "discipline":"Institutions - Gouvernance et Ressources naturelles",
+        "type":"Mixte",
+        "intitule": [
+                    "Définir les concepts suivants Gouvernance - Développement durable - Ressources naturelles",
+                    "Faites ressortir le lien entre Gouvernance et Développement durable",
+                    "Quels sont les acteurs impliqués dans la gouvernance des ressources naturelles au Bénin",
+                    "Quel est le rôle du sociologue dans la gouvernance des ressources naturelles?",
+                    "Quels sont les instruments que les acteurs locaux utilisent dans la gestion des ressources naturelles dans une perspective anthropologique",
+                    "Dans les travaux de terrain, un anthropologue des ressources naturelles observe autour du lac ZEKPON un cultivateur des produits maraîchers, les fidèles d'une église évangélique accompagnés de leur pasteur, les adeptes de la divinité ZEKPON accompagnés du chef religieux. Tous ces acteurs utilisaient le lac à diverses fins. Dites les usages que les trois catégories d'acteurs font du lac ZEKPON. Quelles sont les représentations que ces acteurs pourraient avoir du lac ZEKPON?"
+                ]
+    },
+    {
+        "id": 5,
+        "niveau":"L2",
+        "discipline":"Institutions publiques et gouvernance locale",
+        "type":"Mixte",
+        "intitule": [
+                    "La gouvernace locale : définition, références, utilités et caractéristiques",
+                    "Enumérer les critères d'une bonne gouvernance locale",
+                    "Citer quatre concepts clés de la gouvernance et les conditions de sa mise en oeuvre.",
+                    "A quoi renvoie la sociologie de la gouvernance locale",
+                    "Qu'est-ce-qui particularise une institution en sociologie?",
+                    "En l'Etat est une institution d'institutions au regard de la typologie de son personnel lorsqu'on se réfère à Jacque Lagroye?",
+                    "Quelle la portée du principe de mutabilité dans la définition du concept de service public?",
+                    "A partir des types de travail institutionnel de Denis Laforgue, expliquez les mutations entre les institutions traditionnelles et celles modernes",
+                    "Au regard de votre compréhension de la fonction et du travail institutionnels, peut-on avoir le <<travail contre autrui>>?",
+                    "Le concept du <<monopole de la violence légitime>> s'apparente à un autre chez Pierre Bourdieu. Lequel et Pourquoi?"
                 ]
     }
 ]

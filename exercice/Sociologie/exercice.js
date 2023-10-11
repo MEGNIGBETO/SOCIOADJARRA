@@ -7,14 +7,14 @@ $(document).ready(function(){
         jsonData = data; // stocker les données JSON dans la variable
 
         //créer une liste unique de toutes les valeurs pour chaque clé
+        var niveaux = getUniqueValues("niveau", data);
         var disciplines = getUniqueValues("discipline", data);
-        //var intitules = getUniqueValues("intitule", data);
-        var types = getUniqueValues("type", data);
+        //var types = getUniqueValues("type", data);
 
         //Remplir les listes de fitrage
         fillFilterList("disciplineList", disciplines);
-        //fillFilterList("intituleList", intitules);
-        fillFilterList("typeList", types);
+        fillFilterList("niveauList", niveaux);
+        //fillFilterList("typeList", types);
 
         //Gérer le changement de sélection dans les listes de filtrage
         $(".filterList").change(function(){
@@ -41,22 +41,21 @@ $(document).ready(function(){
 
     //Fonction pour appliquer les filtres et afficher les résultats
     function applyFilters(){
+        var selectedNiveau = $("#niveauList").val(); 
         var selectedDiscipline = $("#disciplineList").val();
-        //var selectedIntitule = $("#intituleList").val();
-        var selectedType = $("#typeList").val();
+        //var selectedType = $("#typeList").val();
 
         //Filtrer les données et stocker le résultat
         var filteredData = jsonData.filter(function(item){
             return (
-                (selectedDiscipline === "" || item.discipline === selectedDiscipline) &&
-                //(selectedIntitule === "" || item.intitule === selectedIntitule) &&
-                (selectedType === "" || item.type === selectedType)
+                (selectedNiveau === "" || item.niveau === selectedNiveau) &&
+                (selectedDiscipline === "" || item.discipline === selectedDiscipline)
+                //(selectedType === "" || item.type === selectedType)
             );
         });
 
-       var donne = JSON.parse(JSON.stringify(filteredData));
-       
-       //alert(JSON.stringify(donne[0].intitule));
+        //Charger les donnees filtrées en memoire sous format JSON
+        var donne = JSON.parse(JSON.stringify(filteredData));
 
         //Afficher le résultat de filtre
         displayResults(donne);
@@ -73,9 +72,6 @@ $(document).ready(function(){
         if(results.length === 0){
             resultHtml = "<p>Aucun résultat trouvé.</p>";
         } else {
-            /*results.forEach(function(item) {
-                resultHtml += "<p>Discipline : " + item.discipline + "<br>Intitulé : " + item.intitule + "<br>Type : " + item.type + "</p>";
-            });*/
             var qrList = document.createElement("ol");
             results[0].intitule.forEach(function(element){
                 var listItem = document.createElement("li");
