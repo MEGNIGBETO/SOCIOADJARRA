@@ -5,10 +5,13 @@ $(document).ready(function() {
         $.each(data, function(index, cours) {
           var coursElement = `
             <div class="carte" data-id="${cours.id}">
-                <img src="images/${cours.image}" alt="Image du cours">
+              <div>
+                <!--<img src="images/${cours.image}" alt="Image">-->
                 <h3>${cours.nom}</h3>
                 <p>${cours.description}</p>
-                <a href="cours/${cours.lien}">Etudier</a>
+                <p>Auteur(s) : ${cours.auteurs}</p>
+              </div>
+              <a href="cours/${cours.lien}">Lire</a>
             </div>
           `;
           

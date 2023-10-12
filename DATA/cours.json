@@ -4,13 +4,15 @@
         "nom": "Prospective territoriale",
         "description": "La prospective territoriale est une discipline au coeur de l'anticipation des actions de développement à l'échelle des territoires. Elle exige méthode et rigueure pour sa mise en oeuvre. Allons donc à la découverte de cette discipline passionnante qui mobilise les acteurs à conspirer contre le future!",
         "image": "lien_image_1.jpg",
-        "lien": "prospective/prospective.html"
+        "lien": "prospective/prospective.html",
+        "auteurs":"Souvenir MEGNIGBETO"
     },
     {
         "id": 2,
         "nom": "Constitution d'une base de données",
         "description": "Collecter les données, produire des insights ou faire ressortir des connaissances, toutes ces tâches ont toujours nécessité discipline et méthode dans la mise en oeuvre. Si tu espères en apprendre davantage, choisis le parcours <strong>constitution d'une base de données</strong>!",
         "image": "lien_image_2.jpg",
-        "lien": "gestion de donnee/gestionDonnee.html"
+        "lien": "gestion de donnee/gestionDonnee.html",
+        "auteurs":"Souvenir MEGNIGBETO"
     }
 ]
