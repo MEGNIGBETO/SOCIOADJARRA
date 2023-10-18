@@ -8,7 +8,7 @@
                         ],
     "sousSectionContent": [
                             "La quête aux informations pertinentes et utiles dans tout processus qui s'entend le plus objectif que possible, requiert de mettre en place un cadre de travail qui obéit à des principes scientifiques éprouvés. La collecte des données renvoie ainsi à un travail méthodique et rigoureux qui garantit in fine l'acquisition de données fiable, utile et exploitable. La méthode à employer dans cette démarche, prend alors en compte en amonts la nature des d'informations à collecter, l'usage futur des informations à collectées, les différents utilisateurs des résultats etc. Il existe donc différentes approches et plusieurs méthodes de collectes pouvant être mis en œuvre au cours du processus en fonction des objectifs attendus.",
-                            "Les objectifs du présent travail sont de faire un point sur les différents approches qui peuvent être adoptées en matière de collecte de données, d'examiner ensuite les méthodes d'échantillonnage puis de faire une synthèse des techniques de traitement statistiques. La démarche adoptée se veut appliquer. Les différentes étapes de la présentation renvoient ainsi à un cas pratique d'application des outils et techniques présentés."
+                            "Les objectifs du présent travail sont de faire un point sur les différents approches qui peuvent être adoptées en matière de collecte de données, d'examiner ensuite les méthodes d'échantillonnage puis de faire une synthèse des techniques de traitement statistiques. La démarche adoptée se veut appliquer."
                           ],
     "sousSectionIllustration": [
                                 "",
@@ -164,6 +164,22 @@
     "sousSectionList": [
                         "",
                         "",
+                        ""
+                      ]
+  },
+  {
+    "id": 7,
+    "sectionTitle": "Conclusion",
+    "sousSectionTitle": [
+                         ""
+                        ],
+    "sousSectionContent": [
+                            "il est essentiel de reconnaître que la recherche de données pertinentes et utiles repose sur la mise en place d'un cadre de travail méthodique et rigoureux, en accord avec les principes scientifiques bien établis. Une collecte de données réussie garantit in fine l'obtention d'informations fiables et exploitables. L'approche méthodologique à employer doit prendre en considération divers facteurs, notamment la nature des informations à collecter, leur utilisation future, ainsi que les différents utilisateurs des résultats."
+                          ],
+    "sousSectionIllustration": [
+                                ""
+                              ],
+    "sousSectionList": [
                         ""
                       ]
   }
