@@ -14,5 +14,4 @@ $(document).ready(function() {
           $('.cartes-service').append(serviceElement);
         });
     });
-    
 })
